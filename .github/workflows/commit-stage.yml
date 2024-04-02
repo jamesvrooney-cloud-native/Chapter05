@@ -15,8 +15,8 @@ jobs:
       fail-fast: false
       matrix:
         project: [
-          04-james/catalog-service,
-          04-james/config-service
+          05-james/catalog-service,
+          05-james/config-service
         ]
     steps:
       - name: Checkout repository
